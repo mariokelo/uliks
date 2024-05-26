@@ -1,0 +1,64 @@
+        <div class="klasa10">
+            <div class="img1">
+                <img class="lvl1" src="images/level 1.png" alt="">
+            </div>
+            <p class="tittle1">KLASA 10</p>
+            <div class="tittle1-1">
+                <p>Fillimi i nje udhetimi te ri</p>
+            </div>
+        </div>
+        <div class="klasa11">
+            <div class="img2">
+                <img class="lvl2" src="images/level 2.png" alt="">
+            </div>
+            <p class="tittle2">KLASA 11</p>
+            <div class="tittle2-1">
+                <p>Ndertimi i njohurive dhe aftesive me te 
+                    thella ne lendet e zgjedhura
+                </p>
+            </div>
+        </div>
+        <div class="klasa12"></div>
+
+
+        .klasa10, .klasa11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    border: 5px solid #78406A;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.img1, .img2{
+    height: 150px;
+    width: 150px;
+}
+
+.tittle1, .tittle2{
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+    border-bottom: 3px solid #78406A
+}
+
+.tittle2{margin-top: 35px;}
+
+.tittle1-1, .tittle2-1{
+    width: 140px;
+    text-align: center;
+}
+
+.tittle1-1 p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.lvl2{
+    width: 100%;
+}
