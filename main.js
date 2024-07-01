@@ -22,6 +22,11 @@ function one() {
       output.innerHTML = "Nuk ju kuptoj :(";
     }
   }
+  document.onkeydown = (e) => {
+  if (e.ctrlKey && e.key == 'u'){
+    e.preventDefault();
+  }
+}
 
   recognition.onerror = function(event) {
     switch (event.error) {
