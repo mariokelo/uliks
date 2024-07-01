@@ -141,12 +141,14 @@
         gap: 50px;
     }
     .container4{margin: 100px auto;}
+    .cont{margin-top: 250px;}
     .left-section{
         order: 1;
     }
     .right-section{order: 2;}
     .container-btn{width: 250px;}
     .ass-btn3, .ass-img3{margin-right: 20px;}
+    .ass-btn, .ass-img{margin-right: 30px;}
 
 }
 
@@ -214,14 +216,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
     .box, .a{
         width: 200px;
         margin-right: 50px;
     }
-    .head{margin-left: 10px;}
-    .box, .a{margin-right: 60px;}
+    .head{margin-left: 40px;}
+    .box, .a{margin-right: 20px;}
+    .ass-img2, #ass-btn2{margin-left: 30px;}
 }
 @media(max-width: 400px){
     .container1{margin: 50px auto;}
