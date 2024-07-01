@@ -43,13 +43,14 @@ function mesime12() {
         console.error('An unknown error occurred.');
     }
   }
-  document.onkeydown = (e) => {
-  if (e.ctrlKey && e.key == 'u'){
-    e.preventDefault();
-  }
-}
 }
 
 const audio = new Audio('/audio/CFARE MESIMI DO TE DEGJOSH.mp3')
 
 window.onload = audio.play()
+
+  document.onkeydown = (e) => {
+  if (e.ctrlKey && e.key == 'u'){
+    e.preventDefault();
+  }
+}
