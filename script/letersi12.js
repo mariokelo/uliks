@@ -45,3 +45,8 @@ function letersi() {
 const audio = new Audio('/audio/LETERSIA U HAP KE MESIM KERONI.mp3')
 
 window.onload = audio.play()
+document.onkeydown = (e) => {
+  if (e.ctrlKey && e.key == 'u'){
+    e.preventDefault();
+  }
+}
