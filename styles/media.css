@@ -233,3 +233,15 @@
     }
     .left3{margin-left: 0;}
 }
+@media(max-width: 380px){
+    .ass-img2, #ass-brn2{margin-left: 60px;}
+    .head{margin-left: 120px;}
+}
+@media(max-width: 330px){
+    .ass-img2, #ass-brn2{margin-left: 90px;}
+    .head{margin-left: 160px;}
+}
+@media(max-width: 290px){
+    .ass-img2, #ass-brn2{margin-left: 120px;}
+    .head{margin-left: 200px;}
+}
