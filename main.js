@@ -51,41 +51,12 @@ function one() {
     }
   }
 }
-//*
-window.onload = function hello(){
-  let output = document.getElementById('output')
-
-  var recognition = new webkitSpeechRecognition();
-  recognition.lang = "sq-AL";
-  recognition.start();
-
-  recognition.onresult = function(event) {
-    let transcript = event.results[0][0].transcript;
-
-    if(transcript.includes("përshë")){
-
-    }else if (transcript.includes("dhje")) { 
-      window.location = "html/mesimet12.html"
-    } else if(transcript.includes("një")){
-      window.location = "html/mesimet12.html"
-    }else if(transcript.includes('dy')){
-      window.location = "html/mesimet12.html"
-    }else{
-      output.innerHTML = "Nuk ju kuptoj :(";
-    }
-  }
-};
 
 const ulikss = new Audio('audio/uliksi.mp3')
 function playSound(audio){
   audio.play()
 }
 
-const vid = document.getElementById('myVideo')
-
-vid.onended = function(){
-  vid.style.display = 'none'
-}
 
 
 
