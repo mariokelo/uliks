@@ -62,3 +62,9 @@ function bio12(){
   }
 
   window.onload = playSound(bio)
+
+document.onkeydown = (e) => {
+  if (e.ctrlKey && e.key == 'u'){
+    e.preventDefault();
+  }
+}
