@@ -62,8 +62,8 @@ function playSound(audio){
   audio.play()
 }
 
-
-
-
-
-
+  document.onkeydown = (e) => {
+  if (e.ctrlKey && e.key == 'u'){
+    e.preventDefault();
+  }
+}
