@@ -62,3 +62,9 @@ function gjeo12(){
   }
 
   window.onload = playSound(gjeo)
+
+document.onkeydown = (e) => {
+  if (e.ctrlKey && e.key == 'u'){
+    e.preventDefault();
+  }
+}
